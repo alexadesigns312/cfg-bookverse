@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Bookverse | Review Site</title>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html"><img src="./img/bookverse-logo.svg" alt="Bookverse Logo"></a>
+    </div>
+    <div class="page-tabs">
+      <a href="index.html">Home</a>
+      <a href="#about">About</a>
+      <div class="dropdown">
+        <button class="dropbtn">Explore</button>
+        <div class="dropdown-content">
+          <a class="dropdown-content" href="#category1">Review A Book</a>
+          <a class="dropdown-content" href="#category2">Discover Authors</a>
+        </div>
+        <a href="#contact">Contact Us</a>
+      </div>
+    </div>
+    <div class="search-login">
+      <img style="height: 30px;" src="./img/my-account.svg" alt="My Account Icon">
+      <a href="signIn.html">Sign In</a> | <a href="join.html">Join</a>
+      <input type="text" placeholder="Search books...">
+    </div>
+  </nav>
+
+<!-- Homepage Slider -->
+<div class="slider-container">
+    <div class="slider-item" style="background-image: url('./img/slider-bg-1.png');">
+      <div class="slider-overlay"></div>
+      <div class="slider-content">
+        <h1>Welcome to BookVerse</h1>
+        <p>Discover a world of captivating stories and brilliant authors.</p>
+      </div>
+    </div>
+    <div class="slider-item" style="background-image: url('./img/slider-bg-2.png');">
+      <div class="slider-overlay"></div>
+      <div class="slider-content">
+        <h1>Find Your Next Literary Adventure</h1>
+        <p>Unlock a universe of books and authors waiting to ignite your imagination.</p>
+      </div>
+    </div>
+  </div>  
+  <button class="prev-btn">&larr;</button>
+  <button class="next-btn">&rarr;</button>
+
+<!-- Three Column Block Buttons -->
+<div class="container-block">
+    <div class="block">
+      <img src="./img/male-animated.png" alt="Image 1">
+      <div class="overlay">
+        <h2>Button 1</h2>
+        <p>Copy for Button 1</p>
+      </div>
+    </div>
+    <div class="block">
+      <img src="./img/female-animated.png" alt="Image 2">
+      <div class="overlay">
+        <h2>Button 2</h2>
+        <p>Copy for Button 2</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
