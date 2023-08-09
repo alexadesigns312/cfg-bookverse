@@ -9,29 +9,34 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav class="navbar">
-     <div class="logo">
-     <a href="index.html"><img src="./img/bookverse-logo.svg" alt="Bookverse Logo"></a>
-     </div>
-     <div class="page-tabs">
+  
+   <!-- Navigation -->
+   <nav class="navbar">
+    <div class="logo">
+      <a href="index.html"><img src="./img/bookverse-logo.svg" alt="Bookverse Logo"></a>
+    </div>
+    <div class="page-tabs">
       <a href="index.html">Home</a>
       <a href="#about">About</a>
-      <div class="dropdown">
-      <button class="dropbtn">Explore</button>
-      <div class="dropdown-content">
-      <a href="#category1">Review A Book</a>
-      <a href="#category2">Discover Authors</a>
-      <a href="#category3">Category 3</a>
+       <div class="dropdown">
+          <button class="font-weight-bold btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+            Explore
+          </button>
+          <div class="dropdown-menu">
+            <a class="category1" href="#">Review A Book</a>
+            <a class="category2" href="#">Discover Authors</a>
+            <a class="category3" href="#">Randomiser</a>
+          </div>
+        </div>
+        <a href="#contact">Contact Us</a>
       </div>
-      <a href="contactUs.html">Contact Us</a>
-      </div>
-      </div>
-      <div class="search-login">
-        <img style="height: 30px;" src="./img/my-account.svg" alt="My Account Icon">
-        <a href="signIn.html">Sign In</a> | <a href="join.html">Join</a>
-        <input type="text" placeholder="Search books...">
-      </div>
-      </nav>
+    </div>
+    <div class="search-login">
+      <img style="height: 30px;" src="./img/my-account.svg" alt="My Account Icon">
+      <a href="signIn.html">Sign In</a> | <a href="join.html">Join</a>
+      <input type="text" placeholder="Search books...">
+    </div>
+  </nav>
 
       <!-- Join Us -->
       <div class="container">
