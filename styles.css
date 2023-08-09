@@ -150,13 +150,16 @@ ol, ul {
   height: 90vh;
   overflow: hidden;
   position: relative;
+  background-color: #E97532;
 }
 
 .slider-item {
   position: relative;
-  flex: 0 0 100%;
-  background-size: cover;
-  background-position: center;
+  /* flex: 0 0 100%; */
+  /* background-size: cover; */
+  /* background-position: center; */
+  width: 200px;
+  height: 200px;
   transition: transform 0.3s ease-in-out;
 }
 

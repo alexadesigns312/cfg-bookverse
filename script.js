@@ -44,4 +44,4 @@ window.addEventListener("click", (event) => {
     }
   }
 });
-}
+})
