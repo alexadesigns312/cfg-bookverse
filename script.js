@@ -1,4 +1,4 @@
-cdocument.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
 const sliderItems = document.querySelectorAll(".slider-item");
 const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
