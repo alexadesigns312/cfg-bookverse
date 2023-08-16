@@ -210,6 +210,7 @@ ol, ul {
 .container-block {
   display: flex;
   max-width: 1200px; /* Optional: Adjust the max-width as needed */
+  margin-bottom: 50px;
 }
 
 .block {
@@ -337,6 +338,7 @@ ol, ul {
   margin-left: 5px;
   margin-right: 5px;
 }
+
 .card img {
   width: 100%;
   height: auto;
@@ -397,4 +399,7 @@ ol, ul {
   .container {
     flex-direction: column; /* Stack columns on top of each other */
   }
+  .card-container {
+  flex-direction: column; /* Stack columns on top of each other */
+}
 }
