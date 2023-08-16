@@ -7,7 +7,7 @@ body, html {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
@@ -15,9 +15,8 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 16px;
+  font-size: 30px;
+  line-height: 3px;
   letter-spacing: 1px;
 }
 
@@ -48,6 +47,14 @@ p {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 1px;
+}
+
+p.book {
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 30px;
 }
 
 ol, ul {
@@ -215,7 +222,7 @@ ol, ul {
 }
 
 .image {
-  max-width: 400px;
+  max-width: 300px;
   height: auto;
   background-size: cover;
   background-position: center;
@@ -308,6 +315,13 @@ ol, ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 1200px; /* Optional: Adjust the max-width as needed */
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.title-container {
+  text-align: center;
   max-width: 1200px; /* Optional: Adjust the max-width as needed */
   margin: 0 auto;
   padding-top: 50px;
