@@ -7,7 +7,7 @@ body, html {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
@@ -15,43 +15,39 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 16px;
   letter-spacing: 1px;
 }
 
 h3 {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 18px;
   margin-bottom: 12px;
   letter-spacing: 1px;
 }
 
 h4 {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 16px;
   margin-bottom: 10px;
   letter-spacing: 1px;
 }
 
 h5 {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 14px;
   margin-bottom: 8px;
   letter-spacing: 1px;
 }
 
 h6 {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 13px;
   margin-bottom: 6px;
   letter-spacing: 1px;
 }
 
 p {
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 1.2;
   letter-spacing: 1px;
 }
 
@@ -155,9 +151,9 @@ ol, ul {
 
 .slider-item {
   position: relative;
-  /* flex: 0 0 100%; */
-  /* background-size: cover; */
-  /* background-position: center; */
+  flex: 0 0 100%;
+  background-size: cover;
+  background-position: center;
   width: 200px;
   height: 200px;
   transition: transform 0.3s ease-in-out;
@@ -208,8 +204,7 @@ ol, ul {
 
 .container-block {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 1200px; /* Optional: Adjust the max-width as needed */
 }
 
 .block {
@@ -308,6 +303,56 @@ ol, ul {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px; /* Optional: Adjust the max-width as needed */
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.card {
+  flex: 1 1 calc(25% - 20px); /* 25% width with spacing */
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  color: #666;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #E97532;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #0056b3;
 }
 
 /* Media query for mobile devices */
