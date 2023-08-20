@@ -57,6 +57,12 @@ p.book {
   padding: 30px;
 }
 
+p.footer {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #E97532;
+}
+
 ol, ul {
   font-size: 18px;
   list-style: disc;
@@ -149,7 +155,6 @@ ol, ul {
 .slider-container {
   display: flex;
   height: 90vh;
-  overflow: hidden;
   position: relative;
   background-color: #E97532;
 }
@@ -159,8 +164,8 @@ ol, ul {
   flex: 0 0 100%;
   background-size: cover;
   background-position: center;
-  width: 200px;
-  height: 200px;
+  width: auto;
+  height: auto;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -440,6 +445,7 @@ ol, ul {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 0px;
 }
 
 .links li {
