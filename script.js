@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   nextBtn.addEventListener("click", () => {
-    currentIndex = (currentIndex + 1) % sliderItems.length;
+    currentIndex = (currentIndex + 1 ) % sliderItems.length;
     showSlide(currentIndex);
   });
 
