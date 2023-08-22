@@ -492,9 +492,6 @@ ol, ul {
 }
 
 
-
-
-
 /* Media query for mobile devices */
 @media (max-width: 768px) {
   .container {
@@ -518,4 +515,5 @@ ol, ul {
 }
 .links {
   margin-top: 10px;
+}
 }

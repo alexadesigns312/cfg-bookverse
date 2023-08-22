@@ -16,8 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function showSlide(index) {
     sliderItems.forEach((item, i) => {
-      item.style.transform = `translateX(${(i - index) * 100}%)`;
-    });
+      item.style.transform = `translateX(${(i - index * 2) * 100}%)`;    });
   }
 
   prevBtn.addEventListener("click", () => {
