@@ -138,6 +138,7 @@ ol, ul {
   border-radius: 5px;
   margin-right: 10px;
   letter-spacing: 1px;
+  max-width: 180px;
 }
 
 .search-login a {
@@ -613,6 +614,11 @@ input[type="file"] {
 .bookreview-button:hover {
   background-color: #333;
   color: #fff;
+}
+
+.bookreview-link {
+  text-decoration: none;
+  display: inline-block;
 }
 
 .star-rating {
