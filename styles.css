@@ -491,6 +491,14 @@ ol, ul {
   font-weight: bold;
 }
 
+.contact-background {
+  display: flex;
+  height: 60vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #E97532;
+}
+
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
