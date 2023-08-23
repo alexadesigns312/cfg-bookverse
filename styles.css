@@ -524,4 +524,11 @@ ol, ul {
 .links {
   margin-top: 10px;
 }
+.container-background {
+  display: flex;
+  height: 60vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #E97532;
+}
 }
