@@ -170,7 +170,6 @@ ol, ul {
   /* height: auto; */
 }
 
-
 .slider-overlay {
   position: absolute;
   top: 0;
@@ -558,6 +557,22 @@ ol, ul {
 
 .bg-image-container {
   background-image: url('img/extra-image-1.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bg-image2-container {
+  background-image: url('img/extra-image-4.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bg-image3-container {
+  background-image: url('img/extra-image-3.jpg');
   background-size: cover;
   background-position: center;
   padding-top: 50px;
